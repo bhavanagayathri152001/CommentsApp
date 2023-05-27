@@ -1,0 +1,132 @@
+.bg-container {
+  background-color: #ffffff;
+  width: 80vw;
+  box-shadow: 0 2px 3px rgb(219, 216, 216);
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    width: 50vw;
+  }
+}
+
+.comments-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.comments-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .comments-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .comments-top-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  .image-container {
+    order: 1;
+  }
+
+  .comments-input-container {
+    order: 0;
+  }
+}
+.comment-image {
+  height: 230px;
+  width: 230px;
+  margin-left: 70px;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+  .comment-image {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #334155;
+}
+
+.input-text {
+  width: 260px;
+  border: 1px solid rgb(180, 179, 179);
+  outline: none;
+  height: 36px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  border: 1px solid rgb(180, 179, 179);
+  outline: none;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+.add-comment-button {
+  height: 40px;
+  width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-count-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.comments-count-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 22px;
+  width: 22px;
+}
+.comment-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #334155;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.ul-container {
+  list-style-type: none;
+  margin-left: -40px;
+}
